@@ -1,6 +1,7 @@
 *{
   background-color: #0e0e0e;
   color: white;
+
   margin: 0px;
   padding: 0px;
 }
@@ -13,8 +14,7 @@
 }
 #upper1{
   row-gap: 50px;
-   /* display: flex;
-   align-items: center; */
+   
 
 }
 .topLink{
