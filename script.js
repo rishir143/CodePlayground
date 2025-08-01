@@ -27,3 +27,20 @@ const users = [
 ];
 let ans = solve(users);
 console.log(ans);
+
+function sumTwoNum(a, b) {
+  return parseInt(a) + parseInt(b);
+}
+console.log(sumTwoNum(5, 5));
+console.log(sumTwoNum(5, "5")); //parse Method
+
+function SumNum(num) {
+  let sum = 0;
+
+  for (let i = 1; i <= num; i++) {
+    sum = sum + i;
+  }
+  return sum;
+}
+
+console.log(SumNum(10));
